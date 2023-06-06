@@ -6,7 +6,7 @@ function [head] = CO2CHAIN(DEM)
 % output: head: list of indexes of the channel heads found by CO2CHAIN
 %
 % The heads will be extracted from the largest basin in the DEM. If you
-% want to extract all heads regardless of the bassin, replace lines 29-30
+% want to extract all heads regardless of the basin, replace lines 29-30
 % by:
 % DB = DEM;
 % DB.Z(:) = 1;
